@@ -1,6 +1,6 @@
 function lastCHaracter(char) {
   let output = 0;
-  if (typeof char == "String") {
+  if (typeof char == String) {
     output = char[char.length - 1];
   } else {
     output = "String has zero length";
