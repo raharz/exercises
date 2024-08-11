@@ -1,7 +1,7 @@
 function lastCHaracter(char) {
-  let output = 0;
+  let output;
   if (typeof char == String) {
-    output = char[char.length - 1];
+    output = char[output.slice(-1)];
   } else {
     output = "String has zero length";
   }
